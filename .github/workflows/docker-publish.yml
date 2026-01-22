@@ -38,4 +38,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/z-2510p/ci-cd-practice:latest
+          # 使用 | 符号启用多行标签
+          tags: |
+            ghcr.io/z-2510p/ci-cd-practice:latest
+            ghcr.io/z-2510p/ci-cd-practice:${{ github.sha }}
