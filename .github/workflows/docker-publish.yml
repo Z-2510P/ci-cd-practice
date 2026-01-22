@@ -38,4 +38,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/ci-cd-practice:latest
+          tags: ghcr.io/z-2510p/ci-cd-practice:latest
